@@ -1,0 +1,33 @@
+.chats-header {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 5px 15px;
+  height: 50px;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.chats-container {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.my-virtualized-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.my-virtualized-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.my-virtualized-list::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.my-virtualized-list::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
