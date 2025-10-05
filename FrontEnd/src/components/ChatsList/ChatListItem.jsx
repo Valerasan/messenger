@@ -1,6 +1,5 @@
 import React from "react";
 import { List, AutoSizer } from "react-virtualized";
-
 import ChatItem from "./ChatItem";
 import "./ChatListItem.css";
 

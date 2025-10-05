@@ -3,6 +3,7 @@ import UserIcon from "./components/UserIcon/UserIcon";
 import LogInButton from "./components/LogInButton/LogInButton";
 import SearchBar from "./components/SearchBar/SearchBar";
 import ChatListItem from "./components/ChatsList/ChatListItem";
+import CahtConversation from "./components/ChatConversation/CahtConversation";
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
 
         <ChatListItem />
       </aside>
-      <main className="conversation">Conversation</main>
+      <main className="conversation">
+        <CahtConversation />
+      </main>
     </div>
   );
 }

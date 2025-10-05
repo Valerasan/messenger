@@ -15,6 +15,11 @@
 }
 
 .my-virtualized-list::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.my-virtualized-list:hover::-webkit-scrollbar {
   width: 8px;
 }
 

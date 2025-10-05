@@ -12,8 +12,8 @@ const ChatItem = React.memo(
         <UserIcon />
         <div className="chat-item-content">
           <div className="chat-item-header">
-            <span className="chat-item-name">{name}</span>
-            <span className="chat-item-time">{time}</span>
+            <div className="chat-item-name">{name}</div>
+            <div className="chat-item-time">{time}</div>
           </div>
           <div className="chat-item-message">{message}</div>
         </div>
