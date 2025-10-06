@@ -1,0 +1,71 @@
+.message-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
+  height: 70px;
+}
+
+.message-input__container {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 10px;
+  padding: 8px 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+.message-input__container:focus-within {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-color: #d0d0d0;
+}
+
+.message-input__field {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #333;
+  font-family: inherit;
+}
+
+.message-input__field::placeholder {
+  color: #999;
+  font-style: normal;
+}
+
+.message-input__send-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  transition: all 0.2s ease;
+  margin-left: 4px;
+}
+
+.message-input__send-button:hover {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.message-input__send-button:active {
+  transform: scale(0.95);
+}
+
+.message-input__send-button svg {
+  width: 18px;
+  height: 18px;
+}
